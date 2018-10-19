@@ -1,0 +1,17 @@
+$primary-color: #b90415;
+$primary-color-hover: #d3071b;
+$secondary-color: #103063;
+$secondary-color-hover: #143f85;
+$light-color: #f4f4f4;
+
+@mixin mediaSm {
+  @media screen and (max-width: 580px) {
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  @media screen and (max-width: 780px) {
+    @content;
+  }
+}

@@ -1,0 +1,22 @@
+/* Buttons */
+.btn {
+  padding: 1rem;
+  color: #fff;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: $primary-color;
+
+  &:hover {
+    background: $primary-color-hover;
+  }
+}
+
+.btn-secondary {
+  background: $secondary-color;
+
+  &:hover {
+    background: $secondary-color-hover;
+  }
+}
